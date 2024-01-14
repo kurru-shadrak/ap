@@ -16,7 +16,7 @@ function Navbar() {
     <div className='container'> 
         <BrowserRouter>
         <ul>
-            <li><Link to="/home">Home</Link></li>
+            <li><Link to="">Home</Link></li>
             <li><Link to="/about">About Us</Link></li>
             <li><Link to="/organization">Organization and service Offered by Department</Link></li>
             <li><Link to='/examination'>Examination related Q.Qs</Link></li>
@@ -26,7 +26,7 @@ function Navbar() {
             <li><Link to='/contact'> Contact Us </Link></li>
         </ul>
         <Routes>
-            <Route path='/home' element={<Home/>}/>
+            <Route path='' element={<Home/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/organization' element={<Oraganization/>}/>
             <Route path='/examination' element={<Education/>}/>

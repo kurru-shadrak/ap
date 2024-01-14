@@ -9,7 +9,7 @@ function Header() {
         width="300"
         height="100"
       />
-      <h3 className="blink" style={{backgroundColor:"white"}}>ANDRA PRADESH</h3>
+      <h3 className="blink" style={{backgroundColor:"white"}}>ANDHRA PRADESH</h3>
     </div>
   );
 }
